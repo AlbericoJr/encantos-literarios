@@ -1,0 +1,21 @@
+.site-header{
+  position:fixed;
+  inset:0 0 auto 0;
+  z-index:20;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:28px clamp(20px,9vw,140px);
+  transition:background .4s,padding .4s
+}
+
+.site-header.is-scrolled{
+  background:rgba(0,5,10,.75);
+  backdrop-filter:blur(10px);
+  padding-block:14px
+}
+
+.logo img{
+  width:129px;
+  height:auto
+}

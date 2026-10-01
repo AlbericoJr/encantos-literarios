@@ -1,0 +1,82 @@
+.intro {
+  height: 220vh
+}
+
+.reveal {
+  position: relative;
+  max-width: 880px;
+  text-align: center;
+  font-size: clamp(18px, 2.1vw, 22px);
+  line-height: 2.1
+}
+
+.reveal .w {
+  color: rgba(226, 231, 233, .28);
+  transition: color .35s, opacity .35s
+}
+
+.reveal .w.on {
+  color: var(--t-body)
+}
+
+.reveal strong {
+  font-weight: 700
+}
+
+.reveal strong .w.on {
+  color: var(--t-title)
+}
+
+.reveal.done strong .w {
+  color: var(--blue-light)
+}
+
+.intro__ico {
+  position: absolute;
+  opacity: 0;
+  transform: scale(.4) rotate(-25deg);
+  transition: opacity .5s, transform .7s var(--ease)
+}
+
+.intro__ico.show {
+  opacity: 1;
+  transform: none;
+  animation: float 5s ease-in-out infinite .7s
+}
+
+.i1 {
+  top: calc(50% - 130px);
+  left: calc(50% - 32px);
+  width: 4;
+}
+
+.i2 {
+  bottom: calc(50% - 150px);
+  left: max(20px, calc(50% - 450px));
+  width: 3.25;
+}
+
+.i3 {
+  bottom: calc(50% - 150px);
+  right: max(20px, calc(50% - 450px));
+  width: 3.25;
+}
+
+
+.pin {
+  position: relative;
+  height: 260vh;
+  --p: 0
+}
+
+.pin__stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 20px
+}

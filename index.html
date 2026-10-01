@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encantos Literários — Clube de assinatura de livros</title>
+  <meta name="description" content="Junte-se ao clube de assinatura Encantos Literários e descubra maravilhas e aventuras a cada página.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#topo" aria-label="Encantos Literários — início">
+      <img src="assets/logo.webp" alt="Encantos Literários">
+    </a>
+    <nav aria-label="Principal">
+      <a class="btn btn--primary" href="#assinatura">Assinar</a>
+    </nav>
+  </header>
+
+  <main id="topo">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <h1 id="hero-title">Desperte a sua imaginação e explore novos mundos</h1>
+        <p>Junte-se ao clube de assinatura Encantos Literários e descubra maravilhas e aventuras a cada página</p>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <img src="assets/hero.webp" alt="" width="1200" height="619">
+        <span class="spark s1"></span><span class="spark s2"></span><span class="spark s3"></span><span class="spark s4"></span>
+      </div>
+    </section>
+
+    <!-- INTRO: revelação palavra por palavra -->
+    <section class="intro pin" aria-label="Sobre o clube" data-pin>
+      <div class="pin__stage">
+        <img class="intro__ico i1" src="assets/ico-book.webp" alt="">
+        <p class="reveal" data-reveal>
+          Receba todo mês um <strong data-k="blue">livro surpresa</strong> do seu tema favorito, acompanhado de
+          <strong data-k="blue">brindes exclusivos</strong> que tornarão a sua experiência literária
+          <strong data-k="blue">encantadora</strong>
+        </p>
+        <img class="intro__ico i2" src="assets/ico-mask.webp" alt="">
+        <img class="intro__ico i3" src="assets/ico-orb.webp" alt="">
+      </div>
+    </section>
+
+    <!-- KIT MENSAL -->
+    <section class="kit pin" aria-labelledby="kit-title" data-pin>
+      <div class="pin__stage">
+        <header class="section-head">
+          <h2 id="kit-title"><i class="star" aria-hidden="true"></i>Conheça o kit mensal<i class="star" aria-hidden="true"></i></h2>
+          <p>Receba uma caixa surpresa todos os meses</p>
+        </header>
+        <div class="kit__box">
+          <img class="kit__bm kit__bm--gold" src="assets/bm-gold.webp" alt="Marca-página dourado com castelo">
+          <img class="kit__bm kit__bm--purple" src="assets/bm-purple.webp" alt="Marca-página roxo Encantos Literários">
+          <img class="kit__book" src="assets/book.webp" alt="Livro em capa dura “O Castelo da Colina”, de Sarah Geston">
+          <img class="kit__pin" src="assets/pin.webp" alt="Broche exclusivo com o castelo">
+          <p class="tag tag--book">Livro em capa dura
+            <svg viewBox="0 0 100 40" aria-hidden="true"><path d="M2 36 C 30 4, 70 2, 96 14 M88 6 L97 14 L86 19"/></svg></p>
+          <p class="tag tag--pin">Broche exclusivo
+            <svg viewBox="0 0 60 80" aria-hidden="true"><path d="M20 4 C 4 30, 10 60, 50 72 M42 64 L51 73 L39 78"/></svg></p>
+          <p class="tag tag--bm">Marca páginas temático
+            <svg viewBox="0 0 80 80" aria-hidden="true"><path d="M60 2 C 78 30, 40 50, 8 74 M16 78 L6 75 L10 65"/></svg></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLANOS -->
+    <section class="plans pin" id="assinatura" aria-labelledby="plans-title" data-pin>
+      <div class="pin__stage">
+        <h2 id="plans-title" class="plans__title">Assinatura<br>Encantos Literários</h2>
+        <div class="plans__grid">
+          <i class="star star--float a" aria-hidden="true"></i><i class="star star--float b" aria-hidden="true"></i>
+          <article class="plan plan--l">
+            <h3>Mensal</h3>
+            <p class="price"><strong>R$ 59,90</strong><span>/mês</span></p>
+            <p class="year">R$ 718,80 por ano</p>
+            <ul>
+              <li>Kit mensal com livro temático</li>
+              <li>Broche e marca páginas exclusivo</li>
+              <li>Acesso à comunidade literária</li>
+            </ul>
+            <a class="btn btn--secondary" href="#">Assinar mensal</a>
+          </article>
+          <article class="plan plan--c plan--featured">
+            <img class="plan__bunny" src="assets/bunny.webp" alt="" width="26" height="26">
+            <h3>Semestral <span class="badge">Popular</span></h3>
+            <p class="price"><strong>R$ 52,90</strong><span>/mês</span></p>
+            <p class="year">R$ 634,80 por ano</p>
+            <ul>
+              <li>Kit mensal com livro temático</li>
+              <li>Broche e marca páginas exclusivo</li>
+              <li>Acesso à comunidade literária</li>
+              <li>Membro premium do clube</li>
+            </ul>
+            <a class="btn btn--primary" href="#">Assinar semestral</a>
+          </article>
+          <article class="plan plan--r">
+            <h3>Anual</h3>
+            <p class="price"><strong>R$ 48,90</strong><span>/mês</span></p>
+            <p class="year">R$ 586,80 por ano</p>
+            <ul>
+              <li>Kit mensal com livro temático</li>
+              <li>Broche e marca páginas exclusivo</li>
+              <li>Acesso à comunidade literária</li>
+              <li>Membro premium do clube</li>
+              <li>Planner anual de leituras</li>
+            </ul>
+            <a class="btn btn--secondary" href="#">Assinar anual</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 90 V40 C 240 10 480 10 720 30 C 960 10 1200 10 1440 40 V90 Z"/></svg>
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.webp" alt="Encantos Literários" width="150" height="44">
+        <ul class="social" aria-label="Redes sociais">
+          <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a></li>
+          <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#" aria-label="Discord"><i class="bi bi-discord"></i></a></li>
+          <li><a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></li>
+          <li><a href="#" aria-label="E-mail"><i class="bi bi-envelope"></i></a></li>
+        </ul>
+      </div>
+      <nav class="footer__nav" aria-label="Rodapé">
+        <div><h2>Conteúdos</h2><ul><li><a href="#">Kits passados</a></li><li><a href="#">Clube de membros</a></li><li><a href="#">Blog</a></li></ul></div>
+        <div><h2>Ajuda</h2><ul><li><a href="#">Central de ajuda</a></li><li><a href="#">Regulamentos</a></li><li><a href="#">Suporte</a></li></ul></div>
+      </nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
