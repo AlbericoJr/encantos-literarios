@@ -1,0 +1,92 @@
+.site-footer {
+  position: relative;
+  background-image: url("../assets/book-trace-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100% auto;
+  margin-top: -8vh;
+  padding: 40px 20px 40px;
+}
+
+.wave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -89px;
+  width: 100%;
+  height: 90px;
+  fill: #00152b
+}
+
+.footer__inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px
+}
+
+.social {
+  display: flex;
+  gap: 16px;
+  margin-top: 22px
+}
+
+.social a {
+  color: var(--blue-base);
+  font-size: 20px;
+  transition: color .3s, transform .3s;
+  display: block
+}
+
+.social a:hover {
+  color: var(--blue-light);
+  transform: translateY(-3px)
+}
+
+.footer__nav {
+  display: flex;
+  gap: clamp(32px, 8vw, 64px);
+}
+
+.footer__nav h2 {
+  font-size: 20px;
+  margin-bottom: 12px
+}
+
+.footer__nav li {
+  margin-bottom: 8px
+}
+
+.footer__nav a {
+  font-size: 1.3rem;
+  color: var(--blue-base);
+  transition: color .3s
+}
+
+.footer__nav a:hover {
+  color: var(--blue-light)
+}
+
+@media (max-width: 860px) {
+  .site-footer {
+    background-size: 100% 100%;
+  }
+
+  .footer__brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__nav {
+    align-items: center;
+    justify-content: center;
+    gap: clamp(32px, 8vw, 48px);
+  }
+}

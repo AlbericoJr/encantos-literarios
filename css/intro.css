@@ -47,19 +47,19 @@
 .i1 {
   top: calc(50% - 130px);
   left: calc(50% - 32px);
-  width: 4;
+  width: 4rem;
 }
 
 .i2 {
   bottom: calc(50% - 150px);
   left: max(20px, calc(50% - 450px));
-  width: 3.25;
+  width: 3.25rem;
 }
 
 .i3 {
   bottom: calc(50% - 150px);
   right: max(20px, calc(50% - 450px));
-  width: 3.25;
+  width: 3.25rem;
 }
 
 
